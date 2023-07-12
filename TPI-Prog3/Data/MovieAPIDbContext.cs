@@ -13,7 +13,7 @@ namespace TPI_Prog3.Data
 
         }
 
-        //Tablas que se van a usar en la base de datos
+        
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Documental> Documentals { get; set; }
         public DbSet<Serie> Series { get; set; }
